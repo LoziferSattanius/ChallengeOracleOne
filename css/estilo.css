@@ -1,0 +1,58 @@
+.estiloBackground{
+    background-image: url('../img/code.gif');
+}
+
+.transparencia{
+    opacity: 0.95;
+    background-color: black;
+    padding: 20px;
+}
+
+.caja{
+}
+
+.grid-layout{
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 45rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    background-color: black;
+    padding: 20px;
+}
+
+.texto{
+    color:white; 
+    text-align:center; 
+    font-family:'Courier New';
+}
+
+textarea{
+    text-align:center; 
+    border-radius: 10px;
+    font-family:'Courier New';
+    font-weight: 500;
+    font-size: 30px;
+    background-color: rgb(33, 36, 39);
+    color: azure;
+    padding: 1rem;
+    border: 2px solid transparent;
+    outline: none;
+    width: 70%;
+    height: 60%;
+}
+
+button{
+    position: relative;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 15px 80px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    background: transparent;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}

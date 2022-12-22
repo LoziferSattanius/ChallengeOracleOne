@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body class="estiloBackground" style="text-align: center;">
+
+    <div class="transparencia">
+        <h1 class="texto">ENCRIPTADOR DE MENSAJES</h1>
+        <h5 class="texto">by Jorge Lozornio</h5>
+        
+        <div class="grid-layout">
+            <div class="caja">
+                <h1 class="texto">TEXTO</h1>
+                <textarea id="txtArea" placeholder="Introduce el texto..."></textarea><br>
+                <br><div style="padding: 10px;"><button id="encriptar" onclick="encriptarTexto()">ENCRIPTAR</button></div>
+                <button id="desencriptar" onclick="desencriptarTexto()">DESENCRIPTAR</button>
+            </div>
+            <div class="caja">
+                <h1 class="texto">TRADUCCIÓN</h1>
+                <textarea id="txtArea2" placeholder="No hay texto a traducir"></textarea><br>
+                <br></b><button id="copiar" onclick="copiar()">COPIAR</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/encriptador.js"></script>
+
+</body >
+</html>
